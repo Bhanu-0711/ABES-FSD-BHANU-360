@@ -5,47 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bhanu's Web Page</title>
     <style>
-        table{
+        #table{
             padding: center;
             align-content: center;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: large;
             font-weight: 100;
+            background-color:rgb(90, 139, 211);
+        }
+        #resume{
+            font-weight: 900;
+            color: rgba(67, 1, 1, 0.725);
+        }
+        #body{
+            background-color: aliceblue;
+            font-size: large;
         }
     </style>
 </head>
-<body>
-    <h1 align="center" , font="consolas">Bhanu's Academic Qualifications</h1>
-    <table border= solid black , id="table", width="800px", height="300px", align="center", cellpadding="6"> 
-        <tr bgcolor="pink">
-            <th>S.No.</th>
-            <th>Class</th>
-            <th>Board</th>
-            <th>Marks</th>
-            <th>Division</th>
-        </tr>
-        <tr align="center">
-            <td>1</td>
-            <td>10th</td>
-            <td>CBSE</td>
-            <td>93</td>
-            <td>1st</td>
-        </tr>
-        <tr align="center">
-            <td>2</td>
-            <td>12th</td>
-            <td>CBSE</td>
-            <td>88</td>
-            <td>2nd</td>
-        </tr>
-        <tr align="center">
-            <td>3</td>
-            <td>B.TECH</td>
-            <td>AKTU</td>
-            <td>8.77</td>
-            <td>3rd</td>
-        </tr>
-      
-    </table>
+<body id="body">
+    <section id="resume">
+        <h1 align="center"><u>RESUME</u></h1>
+        <p><b>NAME:-</b> Bhanu Pratap Singh</p>
+        <img src="components/bhanu-pic.jpg" align="right" border="3px" bordercolor="black" height="100px" width="100px">
+        <p><b>FATHER'S NAME:-</b> Vijay Chauhan</p>
+        <p><b>MOTHER'S NAME:-</b> Babita Chauhan</p>
+        <p><b>DOB:-</b> 07 NOV 2006</p>
+        <p><b>EMAIL:-</b> bhanu7pratap11@gmail.com</p>
+    </section>
+    <section>
+        <h1 align="center" >Bhanu's Academic Qualifications</h1>
+        <table border= solid black , id="table", width="800px", height="300px", align="center", cellpadding="6"> 
+            <tr bgcolor="pink">
+                <th>S.No.</th>
+                <th>Class</th>
+                <th>Board</th>
+                <th>Marks</th>
+                <th>Division</th>
+            </tr>
+            <tr align="center">
+                <td>1</td>
+                <td>10th</td>
+                <td>CBSE</td>
+                <td>93</td>
+                <td>1st</td>
+            </tr>
+            <tr align="center">
+                <td>2</td>
+                <td>12th</td>
+                <td>CBSE</td>
+                <td>88</td>
+                <td>1st</td>
+            </tr>
+            <tr align="center">
+                <td>3</td>
+                <td>B.TECH</td>
+                <td>AKTU</td>
+                <td>8.77</td>
+                <td>1st</td>
+            </tr>
+        </table>
+    </section>
+    <section id="footer">
+        <p><b><u>Area of interest:</u></b>  I am passionate about Full Stack Development, exploring both front-end and back-end technologies to build scalable, user-friendly applications while continuously learning frameworks and improving coding skills for innovative solutions.</p>
+        <p><b><u>Hobbies:</u></b>   Learning about Space and Science , Listening to music , Playing Badminton</p>
+        <p><b><u>Declaration:</u></b></p>
+        <p>I hereby declare that I have entered information that is true to my knowledge.</p>
+        <img src="components/20231106_155246.jpg" height="70px" w="50px" border="3px" align="right">
+    </section>
 </body>
 </html>
