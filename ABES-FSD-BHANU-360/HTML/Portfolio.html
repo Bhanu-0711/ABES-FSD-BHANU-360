@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+    mark{
+    background-color: lightgreen; /* change highlight color */
+    color: red;                   /* change text color */
+    padding: 2px 4px;
+    border-radius: 4px;           /* optional: rounded highlight */
+    }
+    #table{
+        border: 1cap;
+        border-color: black;
+        padding: 1px;
+        background-color: aquamarine;
+        border: solid black;
+    }
+    #header{
+        font-size: large;
+    }
+    #home{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #about{
+
+    }
+    #skills{
+        font-size: large;
+    }
+</style>
+</head>
+<body>
+    <h1 align="center"><mark>BHANU'S PORTFOLIO</mark></h1>
+    <main id="home">
+        <section id="header">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact Details</a></li>
+            </ul>
+        </section>
+        <br>
+        <section id="about">
+            <h2><u><b>About Me:</b></u></h2>
+            <p>Hi! This is <b><em>BHANU PRATAP SINGH of ABESEC College</em></b>. I am pursuing my B.tech 2nd year from here and my main interest is in the domain of <em>FSD.</em></p>
+            <p>Currently I am looking for recruiters to join me and help me build new projects which i'm working on.</p>
+            <br>
+            <h3><u>My Contact Details: </u></h3>
+            <ul>
+                <li><p>Linkedin : <a href="https://www.linkedin.com/in/bhanu-pratap-singh-8a7389336/">My Linkedin</a></p></li>
+                <li><p>Contact No. 7827809066</p></li>
+                <li><p>EMAIL: <a href="mailto:bhanu7pratap11@gmail.com">bhanu7pratap11@gmail.com</a></p></li>
+            </ul>
+        </section>
+        <br>
+        <section id="projects">
+            <h2><b><u>PROJECTS</u></b></h2>  
+             <table id="table" border="solid black" align="center" height="200px" width="500px" cellspacing="4">
+                <tr align="center">
+                    <th>Project Name</th>
+                    <th>Tech Used</th>
+                    <th>Status</th>
+                </tr>
+                <tr align="center">
+                    <td>Resume</td>
+                    <td>HTML</td>
+                    <td>Completed</td>
+                </tr>
+                <tr align="center">
+                    <td>Portfolio</td>
+                    <td>HTML</td>
+                    <td>In progress</td>
+                </tr>
+                <tr align="center">
+                    <td>Website Development</td>
+                    <td>HTML,CSS</td>
+                    <td>In Future</td>
+                </tr>
+             </table>
+        </section>
+
+        <section id="skills">
+            <h3><b><u>SKILLS</u></b></h3>
+            <h4>Development Process:</h4>
+            <ol>
+                <li>Plan</li>
+                <li>Design</li>
+                <li>Develop</li>
+                <li>Test</li>
+                <li>Deploy</li>
+            </ol>
+            
+            <h4>Detailed Skills:</h4>
+            <ul>
+                <li>Frontend
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </li>
+                <li>Backend
+                    <ul>
+                        <li>Node.js</li>
+                        <li>PHP</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section id="education">
+        <h1 align="center" >Bhanu's Academic Qualifications</h1>
+        <table border= solid black , id="table", width="800px", height="300px", align="center", cellpadding="6"> 
+            <tr bgcolor="pink">
+                <th>S.No.</th>
+                <th>Class</th>
+                <th>Board</th>
+                <th>Marks</th>
+                <th>Division</th>
+            </tr>
+            <tr align="center">
+                <td>1</td>
+                <td>10th</td>
+                <td>CBSE</td>
+                <td>93</td>
+                <td>1st</td>
+            </tr>
+            <tr align="center">
+                <td>2</td>
+                <td>12th</td>
+                <td>CBSE</td>
+                <td>88</td>
+                <td>1st</td>
+            </tr>
+            <tr align="center">
+                <td>3</td>
+                <td>B.TECH</td>
+                <td>AKTU</td>
+                <td>8.77</td>
+                <td>1st</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h3>Contact </h3>
+        <form>
+            Name: <br>
+            <input type="text" >
+            <br><br>
+            Email: <br>
+            <input type="email">
+            <br><br>
+            Message: <br>
+            <textarea placeholder="enter your feedback" height="10px" width="20px"></textarea>
+            <br><br>
+            <button>Submit</button>
+            <button>Reset</button>
+        </form>
+    </section>
+
+    </main>
+</body>
+</html>
